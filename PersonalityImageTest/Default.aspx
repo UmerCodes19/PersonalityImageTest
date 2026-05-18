@@ -14,7 +14,8 @@
             <section class="intro">
                 <p class="eyebrow">ASP.NET Web Forms Lab</p>
                 <h1>First Image Personality Test</h1>
-                <p>Choose the image your eyes noticed first. The application will analyze your choice and show a personality result.</p>
+                <p>Choose the image your eyes noticed first from the updated image collection.
+</p>
             </section>
 
             <section class="test-panel" aria-label="Personality image choices">
