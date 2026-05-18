@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #17202a;
+    background: #f4f7fb;
+}
+
+.page-shell {
+    width: min(1120px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.intro {
+    margin-bottom: 24px;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    color: #536d2b;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+h1,
+h2 {
+    margin: 0;
+    line-height: 1.1;
+}
+
+h1 {
+    max-width: 720px;
+    font-size: clamp(2rem, 4vw, 4.3rem);
+}
+
+.intro p:last-child {
+    max-width: 720px;
+    margin: 16px 0 0;
+    color: #415062;
+    font-size: 1.08rem;
+    line-height: 1.6;
+}
+
+.test-panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.image-choice {
+    display: grid;
+    gap: 12px;
+    padding: 12px;
+    color: #17202a;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid #d8e0ea;
+    border-radius: 8px;
+    box-shadow: 0 10px 28px rgba(22, 35, 54, 0.08);
+    transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.image-choice:hover,
+.image-choice:focus {
+    border-color: #536d2b;
+    box-shadow: 0 16px 38px rgba(22, 35, 54, 0.15);
+    transform: translateY(-2px);
+    outline: none;
+}
+
+.image-choice img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
+    background: #d9e7ee;
+}
+
+.image-choice span {
+    min-height: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.result-panel {
+    margin-top: 24px;
+    padding: 24px;
+    background: #ffffff;
+    border-left: 6px solid #536d2b;
+    border-radius: 8px;
+    box-shadow: 0 14px 34px rgba(22, 35, 54, 0.1);
+}
+
+.result-panel h2 {
+    font-size: 2rem;
+}
+
+.result-panel p:last-of-type {
+    max-width: 760px;
+    color: #415062;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.reset-button {
+    min-height: 42px;
+    padding: 0 18px;
+    color: #ffffff;
+    font-weight: 700;
+    background: #1f5f73;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.reset-button:hover,
+.reset-button:focus {
+    background: #17495a;
+}
+
+@media (max-width: 560px) {
+    .page-shell {
+        width: min(100% - 20px, 1120px);
+        padding: 24px 0;
+    }
+
+    .test-panel {
+        grid-template-columns: 1fr;
+    }
+}

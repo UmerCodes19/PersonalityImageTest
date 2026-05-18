@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Forest path">
+  <rect width="640" height="480" fill="#d7ecf0"/>
+  <circle cx="510" cy="78" r="46" fill="#f6c75a"/>
+  <path d="M0 220 C130 120 240 150 360 210 C460 260 540 220 640 160 L640 480 L0 480 Z" fill="#7aa66a"/>
+  <path d="M0 265 C160 180 260 230 380 270 C500 310 570 260 640 230 L640 480 L0 480 Z" fill="#4f8a57"/>
+  <path d="M280 480 C302 395 322 320 332 244 C350 316 382 402 430 480 Z" fill="#8a6740"/>
+  <path d="M60 230 L120 100 L180 230 Z" fill="#255f45"/>
+  <path d="M125 240 L205 70 L285 240 Z" fill="#2f6d4b"/>
+  <path d="M420 235 L500 85 L580 235 Z" fill="#255f45"/>
+  <path d="M210 480 C250 410 300 372 342 328 C384 374 404 420 414 480 Z" fill="#c18a52"/>
+</svg>

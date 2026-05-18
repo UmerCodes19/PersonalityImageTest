@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Mountain peak">
+  <rect width="640" height="480" fill="#e7f1f4"/>
+  <circle cx="510" cy="94" r="42" fill="#f3b85b"/>
+  <path d="M0 360 L160 190 L265 310 L380 120 L640 360 L640 480 L0 480 Z" fill="#6d7f8e"/>
+  <path d="M380 120 L640 360 L640 480 L390 480 L300 312 Z" fill="#4d6574"/>
+  <path d="M380 120 L316 255 L382 222 L440 260 Z" fill="#f9fbfd"/>
+  <path d="M160 190 L105 270 L170 246 L222 282 Z" fill="#f9fbfd"/>
+  <path d="M0 392 C160 330 280 382 405 348 C500 322 575 340 640 310 L640 480 L0 480 Z" fill="#536d2b"/>
+</svg>

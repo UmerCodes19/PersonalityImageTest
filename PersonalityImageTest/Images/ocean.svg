@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Ocean wave">
+  <rect width="640" height="480" fill="#dff4fb"/>
+  <rect y="250" width="640" height="230" fill="#1f7895"/>
+  <path d="M0 264 C100 218 170 310 260 268 C360 220 420 290 520 250 C585 224 615 220 640 226 L640 330 L0 330 Z" fill="#39a9c7"/>
+  <path d="M0 320 C130 278 210 354 326 312 C438 272 498 330 640 286 L640 480 L0 480 Z" fill="#0e5d78"/>
+  <path d="M150 220 C220 128 330 126 404 205 C345 188 305 198 270 240 C225 292 190 284 150 220 Z" fill="#ffffff"/>
+  <circle cx="100" cy="88" r="44" fill="#f7c66a"/>
+</svg>
